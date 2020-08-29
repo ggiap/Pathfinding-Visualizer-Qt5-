@@ -33,6 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->columnsLineEdit->setValidator(new QRegularExpressionValidator(QRegularExpression("[1-9]\\d{0,2}"),this));
 
     ui->randomRadioButton->setChecked(true);
+    ui->manhattanRadioButton->setChecked(true);
 }
 
 MainWindow::~MainWindow()

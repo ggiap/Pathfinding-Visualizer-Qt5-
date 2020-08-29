@@ -21,9 +21,10 @@ Grid::Grid(vector<vector<int>> &grid)
 			node.cell.setSize(sf::Vector2f(650 / static_cast<float>(grid.at(0).size()),
 										   650 / static_cast<float>(grid.size())));
 			node.cell.setPosition(j*node.cell.getSize().y, i*node.cell.getSize().x);
+			node.cell.setOutlineThickness(1.f);
 			nodes.push_back(node);
 		}
-	}
+    }
 
 	int rows = grid.at(0).size();
 	int columns = grid.size();
