@@ -58,10 +58,10 @@ add_custom_command(
         TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${CMAKE_SOURCE_DIR}/Font
-        ${CMAKE_CURRENT_BINARY_DIR}/res)
+        ${CMAKE_CURRENT_BINARY_DIR}/Font)
 
 add_custom_command(
         TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${CMAKE_SOURCE_DIR}/Grids_for_testing
-        ${CMAKE_CURRENT_BINARY_DIR}/res)
+        ${CMAKE_CURRENT_BINARY_DIR}/Grids_for_testing)
