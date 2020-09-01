@@ -373,6 +373,8 @@ void MainWindow::Run()
 
     if (start == nullptr || finish == nullptr || start->nodeIndex == finish->nodeIndex)
     {
+        window.close();
+
         QMessageBox* mb = new QMessageBox();
         mb->setIcon(QMessageBox::Critical);
         mb->setText("Cannot solve this grid!");
@@ -381,7 +383,6 @@ void MainWindow::Run()
         mb->exec();
         delete mb;
 
-        window.close();
         return;
     }
 
