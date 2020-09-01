@@ -81,7 +81,7 @@ cmake -DCMAKE_BUILD_TYPE=Release .. && make
 cd bin && ./PathfindingVisualization
 ```
 
-![](Pathfinder.gif)
+![](Gif/Pathfinder.gif)
 
 ## Controls
 
