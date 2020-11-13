@@ -1,5 +1,7 @@
 # Pathfinding-Visualizer-Qt5-
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fbf3f0d36c5c497eb3a8d626afdc61d2)](https://app.codacy.com/gh/ggiap/Pathfinding-Visualizer-Qt5-?utm_source=github.com&utm_medium=referral&utm_content=ggiap/Pathfinding-Visualizer-Qt5-&utm_campaign=Badge_Grade)
+
 Visualization of how 3 pathfinding algorithms work(and one more random search algorithm for testing purposes). Diagonal movement is supported.
 
 Currently supported algorithms:
