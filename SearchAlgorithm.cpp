@@ -3,7 +3,7 @@
 
 
 SearchAlgorithm::SearchAlgorithm(Grid &grid, Node &_start, Node &_finish)
-	: map(&grid), start(&_start), finish(&_finish)
+	: map(&grid), start(&_start), finish(&_finish), heuristicChoice()
 {
 }
 

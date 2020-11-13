@@ -1,7 +1,7 @@
 #include "Node.h"
 
 
-Node::Node()
+Node::Node() : nodeIndex()
 {
 	cell.setSize(sf::Vector2f(30, 30));
 	cell.setOutlineColor(sf::Color::Black);
@@ -9,7 +9,7 @@ Node::Node()
 	previous = nullptr;
 }
 
-Node::Node(int newValue)
+Node::Node(int newValue) : nodeIndex()
 {
 	value = newValue;
 }

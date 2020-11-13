@@ -20,6 +20,7 @@ conan_add_remote(NAME bincrafters URL
 
 conan_cmake_run(REQUIRES
         sfml/2.5.1@bincrafters/stable
+        flac/1.3.2@bincrafters/stable
         BASIC_SETUP
         BUILD missing)
 
