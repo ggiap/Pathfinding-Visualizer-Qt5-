@@ -11,7 +11,7 @@ A_star::A_star(Grid &grid, Node &_start, Node &_finish, int _heuristicChoice)
 	printf("  Finish(%.1f, %.1f)\n", finish->cell.getPosition().x, finish->cell.getPosition().y);
 	printf("Cell size: (%.f x %.f)\n", (map->nodes.at(0).cell.getSize().x), (map->nodes.at(0).cell.getSize().y));
 	printf("HeuristicCost: %.1f \n", Break_Ties_Heuristic(*start));
-	printf("Map size: %ul \n\n", map->nodes.size());
+	printf("Map size: %zu \n\n", map->nodes.size());
 #endif // DEBUG
 
 	for (auto &node : map->nodes)
