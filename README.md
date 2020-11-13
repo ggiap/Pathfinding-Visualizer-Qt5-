@@ -3,9 +3,9 @@
 Visualization of how 3 pathfinding algorithms work(and one more random search algorithm for testing purposes). Diagonal movement is supported.
 
 Currently supported algorithms:
-*  [A*](https://en.wikipedia.org/wiki/A*_search_algorithm)
-*  [GreedyBFS](https://en.wikipedia.org/wiki/Best-first_search)
-*  [Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+* [A*](https://en.wikipedia.org/wiki/A*_search_algorithm)
+* [GreedyBFS](https://en.wikipedia.org/wiki/Best-first_search)
+* [Dijkstra](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
 
 Distance calculation: 
 * [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry)
