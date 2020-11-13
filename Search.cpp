@@ -2,10 +2,10 @@
 #include <algorithm>
 #include <iterator>
 
-Search::Search() : start(), finish(), iterations()
+Search::Search() : start(), finish(), iterations(), map(), finished()
 {}
 
-Search::Search(Grid &grid) : start(), finish(), iterations()
+Search::Search(Grid &grid) : start(), finish(), iterations(), map(), finished()
 {
 	map = &grid;
 	finished = false;
